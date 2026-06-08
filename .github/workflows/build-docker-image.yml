@@ -1,14 +1,14 @@
 name: Build and Push Docker Image
 
-on:
+于:
   push:
-    branches: [ main ]
+    分支: [ main ]
     paths:
       - 'Dockerfile'
       - 'index.js'
       - 'package.json'
   pull_request:
-    branches: [ main ]
+    分支: [ main ]
   workflow_dispatch:
 
 jobs:
